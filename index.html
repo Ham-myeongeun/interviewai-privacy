@@ -1,1 +1,82 @@
-<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>InterviewAI 개인정보처리방침</title><style>body{font-family:-apple-system,sans-serif;max-width:800px;margin:0 auto;padding:20px;color:#2C2C2A;line-height:1.8}h1{color:#534AB7;border-bottom:2px solid #534AB7;padding-bottom:10px}h2{color:#3C3489;margin-top:32px}table{width:100%;border-collapse:collapse;margin:16px 0}th{background:#EEEDFE;color:#3C3489;padding:10px;text-align:left}td{padding:10px;border-bottom:1px solid #E0DEFC}.highlight{background:#F8F7FE;border-left:4px solid #534AB7;padding:12px 16px;margin:16px 0;border-radius:0 8px 8px 0}footer{margin-top:48px;padding-top:20px;border-top:1px solid #E0DEFC;color:#888780;font-size:13px}</style></head><body><h1>InterviewAI 개인정보처리방침</h1><p>시행일: 2026년 6월 1일</p><div class="highlight"><strong>요약:</strong> InterviewAI는 AI 면접 연습 서비스 제공을 위해 최소한의 개인정보만 수집하며, 수집된 정보는 서비스 제공 목적 외에 절대 사용하지 않습니다.</div><h2>1. 수집하는 개인정보</h2><table><tr><th>항목</th><th>수집 목적</th><th>보유 기간</th></tr><tr><td>이메일 주소</td><td>회원가입 및 로그인</td><td>회원 탈퇴 시까지</td></tr><tr><td>비밀번호 (암호화)</td><td>본인 인증</td><td>회원 탈퇴 시까지</td></tr><tr><td>이름 (선택)</td><td>서비스 개인화</td><td>회원 탈퇴 시까지</td></tr><tr><td>면접 답변 내용</td><td>AI 분석 및 피드백 제공</td><td>회원 탈퇴 시까지</td></tr><tr><td>결제 정보</td><td>구독 서비스 제공</td><td>관련 법령에 따름</td></tr></table><h2>2. 개인정보 제3자 제공</h2><table><tr><th>제공 대상</th><th>제공 목적</th><th>제공 항목</th></tr><tr><td>Anthropic (Claude AI)</td><td>AI 면접 분석</td><td>면접 답변 텍스트</td></tr><tr><td>Toss Payments</td><td>구독 결제 처리</td><td>결제 관련 정보</td></tr><tr><td>Railway</td><td>서버 호스팅</td><td>서비스 이용 데이터</td></tr></table><h2>3. AI 서비스 안내</h2><div class="highlight">InterviewAI의 AI 피드백은 참고용이며, 전문 커리어 컨설팅이나 채용 결정을 대체하지 않습니다.</div><h2>4. 개인정보 보호 조치</h2><ul><li>비밀번호 bcrypt 암호화 저장</li><li>JWT 토큰 기반 인증</li><li>HTTPS 통신 암호화</li><li>Claude API 키 서버 측 관리</li></ul><h2>5. 사용자 권리</h2><ul><li>개인정보 열람, 수정, 삭제 요청 가능</li><li>서비스 탈퇴 시 모든 개인정보 즉시 삭제</li><li>문의: support@interviewai.kr</li></ul><h2>6. 문의처</h2><table><tr><th>항목</th><th>내용</th></tr><tr><td>서비스명</td><td>InterviewAI</td></tr><tr><td>개발자</td><td>Ham Myeongeun</td></tr><tr><td>이메일</td><td>support@interviewai.kr</td></tr></table><footer><p>© 2026 InterviewAI. All rights reserved.</p><p>본 개인정보처리방침은 대한민국 개인정보보호법에 따라 작성되었습니다.</p></footer></body></html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InterviewAI 개인정보처리방침</title>
+<style>
+  body { font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; line-height: 1.7; color: #2c2c2a; max-width: 760px; margin: 0 auto; padding: 32px 20px; }
+  h1 { font-size: 26px; border-bottom: 2px solid #534AB7; padding-bottom: 10px; }
+  h2 { font-size: 19px; margin-top: 32px; color: #534AB7; }
+  p, li, td, th { font-size: 15px; }
+  .meta { color: #6b6a64; font-size: 14px; }
+  .summary { background: #f4f3fb; border-left: 4px solid #534AB7; padding: 12px 16px; border-radius: 8px; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  th, td { border: 1px solid #e0ded8; padding: 8px 10px; text-align: left; }
+  th { background: #f4f3fb; }
+  footer { margin-top: 40px; color: #9b9a92; font-size: 13px; border-top: 1px solid #e8e6df; padding-top: 16px; }
+</style>
+</head>
+<body>
+
+<h1>InterviewAI 개인정보처리방침</h1>
+<p class="meta">시행일: 2026년 6월 16일</p>
+
+<p class="summary"><strong>요약:</strong> InterviewAI는 AI 면접 연습 서비스 제공을 위해 최소한의 개인정보만 수집하며, 수집된 정보는 서비스 제공 목적 외에는 사용하지 않습니다.</p>
+
+<h2>1. 수집하는 개인정보</h2>
+<table>
+  <tr><th>항목</th><th>수집 목적</th><th>보유 기간</th></tr>
+  <tr><td>이메일 주소</td><td>회원가입 및 로그인</td><td>회원 탈퇴 시까지</td></tr>
+  <tr><td>비밀번호(암호화 저장)</td><td>본인 인증</td><td>회원 탈퇴 시까지</td></tr>
+  <tr><td>이름(선택)</td><td>서비스 개인화</td><td>회원 탈퇴 시까지</td></tr>
+  <tr><td>면접 답변(음성 녹음 및 텍스트)</td><td>AI 분석 및 피드백 제공</td><td>회원 탈퇴 시까지</td></tr>
+  <tr><td>연습 기록</td><td>학습 통계·리포트 제공</td><td>회원 탈퇴 시까지</td></tr>
+</table>
+
+<h2>2. 개인정보 제3자 제공 및 처리 위탁</h2>
+<table>
+  <tr><th>대상</th><th>목적</th><th>제공 항목</th></tr>
+  <tr><td>Anthropic (Claude AI)</td><td>면접 답변 AI 분석</td><td>면접 답변 텍스트</td></tr>
+  <tr><td>Railway</td><td>서버 호스팅</td><td>서비스 이용 데이터</td></tr>
+</table>
+
+<h2>3. 음성 및 AI 처리 안내</h2>
+<p>면접 연습 중 녹음된 음성은 답변을 텍스트로 변환하고 피드백을 생성하기 위해 처리되며, 그 결과는 이용자의 연습 기록으로 저장됩니다. AI 피드백은 참고용이며, 전문 커리어 컨설팅이나 채용 결정을 대체하지 않습니다.</p>
+
+<h2>4. 개인정보 보호 조치</h2>
+<ul>
+  <li>비밀번호 bcrypt 암호화 저장</li>
+  <li>JWT 토큰 기반 인증</li>
+  <li>HTTPS 통신 암호화</li>
+  <li>API 키 등 민감 정보 서버 측 관리</li>
+</ul>
+
+<h2>5. 이용자의 권리</h2>
+<ul>
+  <li>개인정보의 열람·수정·삭제를 요청할 수 있습니다.</li>
+  <li>서비스 탈퇴 시 모든 개인정보를 지체 없이 삭제합니다.</li>
+  <li>계정 및 데이터 삭제를 원하실 경우 아래 문의처로 요청해 주세요.</li>
+</ul>
+
+<h2>6. 아동의 개인정보</h2>
+<p>앱은 만 14세 미만 아동을 주요 대상으로 하지 않으며, 만 14세 미만 아동의 개인정보를 알면서 수집하지 않습니다.</p>
+
+<h2>7. 처리방침의 변경</h2>
+<p>본 방침은 법령이나 서비스 변경에 따라 수정될 수 있으며, 변경 시 본 페이지를 통해 공지합니다.</p>
+
+<h2>8. 문의처</h2>
+<table>
+  <tr><th>항목</th><th>내용</th></tr>
+  <tr><td>서비스명</td><td>InterviewAI</td></tr>
+  <tr><td>개발자</td><td>Ham Myeongeun</td></tr>
+  <tr><td>이메일</td><td>hammyeongeun@gmail.com</td></tr>
+</table>
+
+<footer>
+  © 2026 InterviewAI. All rights reserved.<br>
+  본 개인정보처리방침은 대한민국 개인정보 보호법에 따라 작성되었습니다.
+</footer>
+
+</body>
+</html>
